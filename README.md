@@ -1,9 +1,12 @@
-## Installation
+Predicts which URLs to scrape based on past results.
 
-```bash
+Destructures routes to generate common patterns.
 
-```
-## Usage
+Supply a .json dataset of an array containing the following objects
+{
+  "host": "", // Domain name
+  "urls": "[{\"url\": \"\", \"scrapedJobs\": 0 }]",
+  "totalUrls": 0
+}
 
-```python
-```
+Model will learn to recognize urls which in the past were containing "scrapedJobs": 1
